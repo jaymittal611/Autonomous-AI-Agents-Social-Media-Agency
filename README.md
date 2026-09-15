@@ -1,12 +1,31 @@
-Download Ollama
-Ollama pull llama3.1:8b
-uv venv
-.venv/bin/activate
-python -m pip install ollama
-configured llm model
 # 🤖 Autonomous AI-Agents Social Media Agency (Fully Local via Ollama)
 
 An end-to-end multi-agent social media collective operating entirely on open-weights local models via Ollama (Model Name-llama3.1:8b). The system ingests an short & unstructured client campaign brief, coordinates strategic decomposition, draft authoring, compliance audits, simulated distribution on a mock platform, audience comment resolution, and closes the loop by feeding analytical discoveries into subsequent campaign weeks.
+
+---
+## 📑 Installation Packages
+| Model/package | cmd/url | 
+| :--- | :--- | 
+| Download Ollama | https://ollama.com/ | 
+| ollama in python | python -m pip install ollama |
+| llama3.1:8b | Ollama pull llama3.1:8b | 
+| uv | pip install uv   |
+| uv activate venv |  uv venv |
+| pydantic | pip install pydantic | 
+| requests | pip install requests | 
+| streamlit | pip install streamlit | 
+| plotly | pip install plotly | 
+| Run with UI | streamlit run app.py |
+| Run with CLI | uv run campaign_loop.py | 
+
+---
+## 📑 Steps
+1. Download ollama & set up llm locally ( model_name=llama3.1:8b ).
+2. Install all the required packages.
+3. Run mock_db.py file to avoid any database related error.
+4. Run UI or CLI view using respective commands mentioned above.
+5. Enter brief about your Business. CLick on Run Campaign Planning in case of UI.
+6. Human approve/reject gate for publication approvals.  
 
 ---
 
@@ -74,7 +93,7 @@ The system rejects monolithic prompting ("act as a team of experts") in favor of
                 └────────────────────────────────┴──────────────────────────┘
 
 
-### Agent Roles & Responsibilities
+### 📑Agent Roles & Responsibilities
 
 | Agent | Responsibility | Core Schema In/Out |
 | :--- | :--- | :--- |
