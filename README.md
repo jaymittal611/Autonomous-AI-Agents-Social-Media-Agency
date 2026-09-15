@@ -21,7 +21,7 @@ An end-to-end multi-agent social media collective operating entirely on open-wei
 ---
 ## 📑 Steps
 1. Download ollama & set up llm locally ( model_name=llama3.1:8b ).
-2. Install all the required packages & activate the venv
+2. Install all the required packages & activate the venv.
 3. Run mock_db.py file to avoid any database related error.
 4. Run UI or CLI view using respective commands mentioned above.
 5. Enter brief about your Business. CLick on Run Campaign Planning in case of UI.
