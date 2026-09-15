@@ -164,5 +164,9 @@ Inter-agent communication is decoupled and fully observable via `agent_tracer.py
 * `agent_trace.json`: Structured machine-readable event log  .
 * `agent_trace.md`: Formatted human-readable negotiation transcript .
 
+## Fields of Improvement 
 
+1. Analytics report consistency and validity.
+2. UI is bare minimum for now. It is required to be upgraded.
+ 
 
